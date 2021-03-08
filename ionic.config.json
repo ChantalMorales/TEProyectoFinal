@@ -1,0 +1,7 @@
+{
+  "name": "crit-list",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

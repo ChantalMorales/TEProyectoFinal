@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h1>{{user.displayName}},</h1>
+
+  <h4>Bienvenido/a a la app de tareas</h4>
+  <p>Las listas solo muestran los {{constant.maxListSize}} primeros items.</p>
+  <p>Asi evitamos que te llenes de tareas</p>
+
+  <ion-button color="secondary" (click)="signOut()">Cerrar sesión</ion-button>
+
+</ion-content>

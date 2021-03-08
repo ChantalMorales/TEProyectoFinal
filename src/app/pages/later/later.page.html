@@ -1,0 +1,10 @@
+<ion-header>
+  <app-list-header [title]="'Postergadas'" [items]="myList.items" (add)="myList.add()"
+    [loading]="myList.loading"></app-list-header>
+</ion-header>
+
+<ion-content>
+  <app-list #myList [title]="'Later'" [name]="'later'" [allowDone]=true [allowLater]=false [allowCrit]=true>
+  </app-list>
+</ion-content>
+

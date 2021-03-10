@@ -36,10 +36,13 @@ export class ListComponent implements OnInit {
       }).snapshotChanges().subscribe(colSnap => {
         this.items = [];
         colSnap.forEach(a => {
-          let item = a.payload.doc.data();
+          const item = a.payload.doc.data();
           item['id'] = a.payload.doc.id;
+          // @ts-ignore
+          item.created = item.created.toDate();
           this.items.push(item);
         });
+        console.log('Arreglo', this.items);
         this.loading = false;
       });
     });

@@ -18,6 +18,13 @@ Para las Cloud Functions, para esto utilizamos el servicio de functions de fireb
 
 Para mostrar las tareas usamos componentes de ionic como sliding items, que a su vez contiene acciones al deslizar, para el uso de las diferentes pantallas se uso ion-tabs, para funciones de editar e ingresar tares ion-modals, además de componentes como botones, labels e inputs. 
 
+# Responsabilidades
+Pruebas : Chantal Morales, Israel Váquez
+Codificación: Nicole Zambrano, Chantal Morales, Israel Váquez, Kevin segovia, Sebastian Morales
+Login: Sebastián Morales
+Cloud Functions: Nicole Zambrano, Kevin segovia
+Subida a la Tienda: Sebastián Morales, Israel Vásquez
+
 # Videos: 
-Link del video de como se hizo la app: 
-Link del video de como se usa la app: 
+Link del video: 
+

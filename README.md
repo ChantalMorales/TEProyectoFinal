@@ -26,5 +26,5 @@ Cloud Functions: Nicole Zambrano, Kevin segovia
 Subida a la Tienda: Sebastián Morales, Israel Vásquez
 
 # Videos: 
-Link del video: 
+Link del video: https://youtu.be/0VPLkzEctco 
 
